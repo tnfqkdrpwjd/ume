@@ -1,16 +1,5 @@
-* {
-  margin: 0px;
-  padding: 0px;
-}
-
-a {
-  text-decoration: none;
-}
-
-.header {
-  color: gray;
-}
-
 .header .top {
-  color: red;
+  /* color: red; */
+  /* visibility: hidden */
+  display: none;
 }

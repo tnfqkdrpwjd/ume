@@ -5,20 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>우메 백업용</title>
     <!-- 외부파일 연결-->
+    <script src="include.js"></script>
     <script src="index.js"></script>
     <link rel="stylesheet" href="cssfile.css" />
   </head>
   <body>
-    <header>
-      <div id="header" class="header"></div>
-    </header>
-    <main>
-      앵커태그 테스트
-      <a href="./backup/index.html">backup</a>
-    </main>
     <script>
       includeHTML("header", "header.html"); // 헤더 포함
       includeHTML("footer", "footer.html"); //푸터 포함
     </script>
+    <header id="header" class="header"></header>
+    <main>
+      앵커태그 테스트
+      <a href="./backup/index.html">backup</a>
+    </main>
+    <footer id="footer" class="footer"></footer>
   </body>
 </html>
